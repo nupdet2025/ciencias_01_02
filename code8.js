@@ -54,7 +54,7 @@ if (isConditionTrue_0) {
 
 
 };gdjs.main7Code.mapOfGDgdjs_9546main7Code_9546GDbtn_95959595goObjects1Objects = Hashtable.newFrom({"btn_go": gdjs.main7Code.GDbtn_9595goObjects1});
-gdjs.main7Code.asyncCallback12111060 = function (runtimeScene, asyncObjectsList) {
+gdjs.main7Code.asyncCallback10257692 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.main7Code.localVariables);
 {gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 2);
 }{runtimeScene.getGame().getVariables().getFromIndex(0).setNumber(3);
@@ -70,7 +70,7 @@ gdjs.main7Code.eventsList1 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.main7Code.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.main7Code.asyncCallback12111060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.main7Code.asyncCallback10257692(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -134,7 +134,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.main7Code.mapOfGDgdjs_9546main7Code_9546GDbtn_95959595goObjects1Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12110260);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14373036);
 }
 }
 }
